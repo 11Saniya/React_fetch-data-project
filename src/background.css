@@ -1,3 +1,4 @@
+
 body {
     background-image: url('https://wallpaperaccess.com/full/1134977.jpg');
     background-repeat: repeat;
@@ -5,16 +6,29 @@ body {
 .background {
     color: #fff;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 50px;
     margin: 10px;
     margin-bottom: 30px;
-    background-color: rgb(255, 106, 0);
+    font-style: italic;
     width: 100%;
     padding-bottom: 20px;
 }
 .background button {
     margin: 10px;
     width: 10%;
-    height: 30px;
-    background-color: rgb(58, 229, 235);
+    height: 50px;
+    background-color: rgb(21, 21, 20);
+    font-weight: 800;
+    color: #fff;
+    transition: 0.5s;
+    font-style: oblique;
+}
+.background button:hover {
+    transform: translateZ(0.6s);
+    background-color: rgb(15, 148, 184);
+}
+#author{
+    color: rgb(173, 242, 13);
+    font-weight: 200;
+    margin-left: 60%;
 }

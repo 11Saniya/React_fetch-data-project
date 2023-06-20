@@ -17,22 +17,22 @@ function UserData({ users }) {
    if (user) {
       quotes = (
          <div>
-            <p><strong>Author: </strong> {user.author}</p><br></br>
-            <p><strong>Text: </strong> {user.text}</p>
+            <p> {user.text}</p>
+            <i id="author"> --{user.author}--</i>
          </div>
       );
    }
 
    return (
       <>
-         <center>
             <div className='background'>
                <div>
-                  <button type="button" onClick={getData}>button</button>
+                  <button type="button" onClick={getData}>Today's Quote</button>
+         <center>
                   {quotes}
+         </center>
                </div>
             </div>
-         </center>
       </>
 
    );
